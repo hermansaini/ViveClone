@@ -10,7 +10,6 @@
 }
 #inTopSection{
   width: 85.15%;
-  background-color: red;
   text-align: center;
   margin: 0 auto;
   height: 100%;
@@ -19,7 +18,81 @@
 }
 
 #topLogo{
+  float: left;
+  height: 70px;
+  width: 114px;
+  background-image: url("./ViveLogo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  clear: both;
+}
 
+#nav-items{
+  width: 950.33px;
+  height: 70px;
+  margin-left: 150px;
+  align-items: center;
+  vertical-align: middle
+  margin-right: 0px;
+}
+
+.navs{
+  color: #CCCCCC;
+  font-family: "Fakt-Normal",Helvetica,Arial;
+  font-size: 16px;
+  float: left;
+  margin-top: 27px;
+  margin-right: 27px;
+}
+
+.navs:hover{
+  text-decoration: underline;
+}
+
+#vive-button{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 36px;
+  height: 38px;
+  transition: .2s;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #00c9fb;
+  border-radius: 21px;
+  outline: 0;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-top: -10px;
+  align-items: center;
+  font-family: "Fakt-Normal",Helvetica,Arial;
+  background-color: transparent;
+  color: #00c9fb;
+}
+
+#vive-button:hover{
+  color: #111820;
+  background-color: #00c9fb;
+}
+
+#sign-in{
+  color: #FFFFFF;
+  /*margin-left: -10px;*/
+  font-family: "Fakt-Normal",Helvetica,Arial;
+  float: left;
+  vertical-align: middle;
+  font-size: 16px;
+  margin-top: 27px;
+  margin-left: 20px;
+  margin-right: 0px;
+}
+
+#htc-logo{
+  float: left;
+  height: 70px;
+  width: 114px;
+  background-image: url("./htc-logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 #firstSS{
