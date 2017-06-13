@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 #topSection{
   background-color: #111820;
   margin-top: 0px;
@@ -7,6 +13,7 @@
   border: 0px;
   border-style: none;
   height: 70px;
+  position: fixed;
 }
 #inTopSection{
   width: 85.15%;
@@ -28,7 +35,7 @@
 }
 
 #nav-items{
-  width: 950.33px;
+  width: 1180.33px;
   height: 70px;
   margin-left: 150px;
   align-items: center;
@@ -41,12 +48,18 @@
   font-family: "Fakt-Normal",Helvetica,Arial;
   font-size: 16px;
   float: left;
-  margin-top: 27px;
+  /*margin-top: 27px;*/
   margin-right: 27px;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  border-bottom: 4px solid transparent;
+  padding-top: 4px;
+  transition: 0.15s;
 }
 
 .navs:hover{
-  text-decoration: underline;
+  border-bottom: 4px solid #00c9fb;
 }
 
 #vive-button{
@@ -62,11 +75,11 @@
   outline: 0;
   cursor: pointer;
   vertical-align: middle;
-  margin-top: -10px;
   align-items: center;
   font-family: "Fakt-Normal",Helvetica,Arial;
   background-color: transparent;
   color: #00c9fb;
+  padding: 0px 14px;
 }
 
 #vive-button:hover{
@@ -97,8 +110,100 @@
 
 #firstSS{
   width = 100%;
-  height: 466.66px;
+  height: 556.66px;
   background-color: green;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 70px;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 #fourPics{
   width: 100%;
