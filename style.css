@@ -32,7 +32,7 @@
   background-color: #41464D;
   display: flex;
   align-items: center;
-  float: right;
+  /*float: right;*/
 }
 
 #topSection{
@@ -225,16 +225,6 @@
   opacity: 1;
   right: 0;
   left: 0;
-  /*display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 5px;
-  content: '';
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  opacity: 1;
-  border-radius: 50%;
-  background-color: #888c90;*/
 }
 
 .active, .dot:hover {
@@ -306,9 +296,36 @@
   left: 0;
 }
 
-#SS2{
-  /*width = 100%;
-  height: 707.23px;
+#firstSS2{
+  width = 100%;
+  height: 466.66px;
   background-color: green;
-  position: relative;*/
+  position: relative;
+}
+
+/* Slideshow container */
+#slideshow-container2{
+}
+
+.dot2{
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 2.5px;
+  background-color: #888C90;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  z-index: 2;
+  position: relative;
+  top: -30;
+  opacity: 1;
+  right: 0;
+  left: 0;
+}
+
+.mySlides2 {
+    display: none;
+    padding-top: 0px;
+    height: 100%;
 }
