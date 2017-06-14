@@ -4,6 +4,36 @@
   padding: 0;
 }
 
+#amount{
+  font-size: 12px;
+  line-height: 32px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #00b5e2;
+  font-family: "Fakt-Normal",Helvetica,Arial;
+  color: #FFFFFF;
+  float: left;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#amount:hover{
+  color: black;
+}
+
+#shopping{
+  width: 121px;
+  height: 50px;
+  position: fixed;
+  z-index: 2;
+  background-color: #41464D;
+  display: flex;
+  align-items: center;
+}
+
 #topSection{
   background-color: #111820;
   margin-top: 0px;
@@ -13,7 +43,9 @@
   border: 0px;
   border-style: none;
   height: 70px;
-  position: fixed;
+  position:  fixed;
+  z-index: 100;
+  top: 0;
 }
 #inTopSection{
   width: 85.15%;
@@ -54,7 +86,7 @@
   align-items: center;
   height: 70px;
   border-bottom: 4px solid transparent;
-  padding-top: 4px;
+  padding-top: 5px;
   transition: 0.15s;
 }
 
@@ -111,21 +143,19 @@
 
 #firstSS{
   width = 100%;
-  height: 536.66px;
+  height: 466.66px;
   background-color: green;
+  position: relative;
 }
 
 /* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-  margin-top: 70px;
+#slideshow-container {
 }
 
 .mySlides {
     display: none;
-    padding-top: 70px;
+    padding-top: 0px;
+    height: 100%;
 }
 
 /* Next & previous buttons */
@@ -156,19 +186,34 @@
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor:pointer;
-  height: 13px;
-  width: 13px;
-  margin: 0 2px;
-  background-color: #bbb;
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 2.5px;
+  background-color: #888C90;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
   z-index: 2;
+  position: relative;
+  top: -30;
+  opacity: 1;
+  right: 0;
+  left: 0;
+  /*display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  content: '';
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 1;
+  border-radius: 50%;
+  background-color: #888c90;*/
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #70CDF0;
 }
 
 /* Fading animation */
@@ -192,17 +237,53 @@
   width: 100%;
   height: 400;
   background-color: #FFFFFF;
+  object-fit: contain;
+  position: relative;
 }
 
 .picGroup{
-  height: 400px;
+  height: 400px;*/
   width: 316px;
   padding: 5px 2.5px 5px 2.5px;
   cursor: pointer;
+  position: relative;
 }
 
 #vidsub{
   width: 100%;
   height: 552px;
   background-color: pink;
+  position: relative;
+}
+
+.vidOverlay{
+    background: transparent;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    font-family: "Fakt-Blond",Helvetica,Arial;
+    color: #FFFFFF;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+    line-height: 27px;
+    top: 50%;
+    text-align: center;
+}
+
+#h1-vid{
+  font-size: 24px;
+  top: 25%;
+  text-align: center;
+  right: 0;
+  left: 0;
+}
+
+#SS2{
+  /*width = 100%;
+  height: 707.23px;
+  background-color: green;
+  position: relative;*/
 }
