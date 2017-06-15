@@ -433,3 +433,98 @@
 #picmargin{
   margin-bottom: 2px;
 }
+
+#holder{
+  height: 725.23px;
+
+}
+
+#content{
+  margin-top: 40px;
+  height: 449.42px;
+  width: 100%;
+  /*display: flex;*/
+  /*justify-content: center;*/
+  background-color: orange;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://www.vive.com/static/img/index/viveport-gradient-mask.png"), url("https://www.vive.com/media/filer_public/ad/d1/add1773d-cbc0-49be-9a04-5daaae52e441/viveport-picture-01.jpg");
+}
+
+#textStuff{
+  color: black;
+  font-family: "Fakt-Normal",Helvetica,Arial;
+  font-size: 34px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+#textStuff2{
+  color: black;
+  font-family: "Fakt-Normal",Helvetica,Arial;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 20%;
+  width: 60%;
+}
+
+#content2{
+  height: 221.81px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://vive.com/media/filer_public/89/ca/89ca4376-f5b5-4ca9-b8da-9e7a009c90cd/viveport-mirror-bg.jpg");
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  bottom: 0;
+}
+
+#headline{
+  height: 35px;
+  font-family: "Fakt-Bold",Helvetica,Arial;
+  font-size: 34px;
+  background-color: white;
+  text-align: center;
+}
+
+#picThing{
+  width: 204.63px;
+  height: 109.61px;
+  display: block;
+  margin: 0 auto;
+}
+
+#picThing:hover{
+  border-bottom: 4px solid #00c9fb;
+}
+
+#vive-button2{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 36px;
+  height: 38px;
+  transition: .2s;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #00c9fb;
+  border-radius: 21px;
+  cursor: pointer;
+  font-family: "Fakt-Normal",Helvetica,Arial;
+  background-color: #00c9fb;
+  color: #FFFFFF;
+  width: 159px;
+  margin: 50 auto;
+}
+
+#vive-button2:hover{
+  color: black;
+}
+
+#vidsub2{
+  width: 100%;
+  height: 546.23px;
+  background-color: pink;
+  position: relative;
+}
