@@ -44,7 +44,7 @@ function showSlides2(n2) {
   if (n2 > slides2.length) {slideIndex2 = 1}
   if (n2 < 1) {slideIndex2 = slides2.length}
   for (i2 = 0; i2 < slides2.length; i2++) {
-      slides2[i2].style2.display = "none";
+      slides2[i2].style.display = "none";
   }
   for (i2 = 0; i2 < dots2.length; i2++) {
       dots2[i2].className = dots2[i2].className.replace(" active", "");
