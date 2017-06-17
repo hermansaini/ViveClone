@@ -528,3 +528,223 @@
   background-color: pink;
   position: relative;
 }
+
+#vive-button3{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 36px;
+  height: 38px;
+  transition: .2s;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #00c9fb;
+  border-radius: 21px;
+  cursor: pointer;
+  font-family: "Fakt-Normal",Helvetica,Arial;
+  background-color: #00c9fb;
+  color: #FFFFFF;
+  width: 159px;
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#vive-button3:hover{
+  color: black;
+}
+
+#world{
+  height: 528px;
+  width: 100%;
+  background-image: url("https://vive.com/media/filer_public/24/ac/24acad52-6f94-4849-be94-a957c1a653b8/hp-07-map.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#center-column{
+  height: 369px;
+  width: 100%;
+  /*display: flex;*/
+  /*justify-content: center;*/
+}
+
+#vive-button4{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 36px;
+  height: 38px;
+  transition: .2s;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #00c9fb;
+  border-radius: 21px;
+  cursor: pointer;
+  font-family: "Fakt-Normal",Helvetica,Arial;
+  background-color: #00c9fb;
+  color: #FFFFFF;
+  width: 209px;
+  position: absolute;
+  /*bottom: 25%;*/
+  left: 50%;
+  margin-top: 2.5%;
+  transform: translate(-50%);
+  /*align-items: center;*/
+}
+
+#vive-button4:hover{
+  color: black;
+}
+
+#update{
+  height: 303px;
+  width: 100%;
+  background-color: #00B5E2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#center-column2{
+  background-color: transparent;
+  width: 1090px;
+  height: 103px;
+  position: relative;
+}
+
+input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+  font-size: 16px;
+  font-family: "Fakt-Normal",Helvetica,Arial;
+}
+
+option{
+  font-weight: normal;
+  display: block;
+  white-space: pre;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+  color: white;
+}
+
+#drop{
+  position: absolute;
+  left: 450;
+  top: 50px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #fff;
+}
+
+#partners{
+  width: 100%;
+  height: 515px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#center-column3{
+  width: 1090px;
+    height: 273px;
+    background-color: transparent;
+}
+
+#socials{
+  width: 100%;
+  height: 70px;
+  background-color: #0074CB;
+  display: flex;
+  align-items: center;
+}
+
+#bottom{
+  width: 100%;
+  height: 586px;
+  background-color: #111820;
+  padding: 50px 0 0 50px;
+  position: relative;
+}
+
+.hoverItem{
+    color: #AAAAAF;
+    line-height: 30px;
+    /*margin-left: 100px;*/
+    top: 0;
+    width: 200px;
+
+}
+
+.hoverItem:hover{
+  color: white;
+}
+
+.hoverItem2{
+    color: #AAAAAF;
+    line-height: 30px;
+    /*margin-left: 400px;*/
+    top: 0;
+}
+
+.hoverItem2:hover{
+  color: white;
+}
+
+.thirds{
+  height: 320px;
+  width: 219px;
+  background-color: transparent;
+  float: left;
+  margin-right: 15px;
+}
+
+#vive-button5{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 36px;
+  height: 38px;
+  transition: .2s;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #FFFFFF;
+  border-radius: 21px;
+  cursor: pointer;
+  font-family: "Fakt-Normal",Helvetica,Arial;
+  background-color: #FFFFFF;
+  color: #00c9fb;
+  width: 209px;
+  position: absolute;
+  transform: translate(-50%);
+  position: absolute;
+  left: 1000px;
+  top: 20;
+}
+
+#usa{
+  font-family: "Fakt-Normal",Helvetica,Arial;
+  font-size: 14px;
+  line-height: 35px;
+  width: auto;
+  height: 35px;
+  padding-right: 12px;
+  padding-left: 39px;
+  letter-spacing: 2px;
+  text-overflow: '';
+  color: #fff;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  background: #353535;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-appearance: none;
+  position: absolute;
+  left: 1000;
+  top: 50;
+}
